@@ -1,0 +1,13 @@
+.main{
+    width: 1600px;
+}
+.list-group{
+    padding:0 50px 50px 50px;
+    margin:50px;
+}
+
+.list-group-item{
+    padding-top:20px ;
+    text-decoration: none;
+    text-align:left;
+}

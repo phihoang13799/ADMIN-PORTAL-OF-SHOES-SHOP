@@ -1,0 +1,69 @@
+.container{
+    width:1600px;
+  }
+  
+  .main{
+    background: #F1F1F1;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+  }
+  .header-form{
+    font-size: 6rem;
+  }
+  .Login-form{
+    width: 600px;
+    min-height: 400px;
+    padding: 50px 60px;
+    text-align: center;
+    background: #fff;
+    border-radius: 3px;
+    margin: 50px;
+    align-self: center;
+    box-shadow: 0 5px 10px 0 rgba(51, 62, 73, 0.1);
+  }
+  .Login-form-control:hover {
+    border-color: #1DBFAF;
+  }
+  .Login-form-group{
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+  .Login-form-control{
+    height: 60px;
+    padding: 8px 12px;
+    border: 1px solid #B3B3B3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+  }
+  .Login-form-label{
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    text-align: left;
+  }
+  .Login-form-submit{
+    outline: none;
+    background-color:#333;
+    margin-top: 14px;
+    padding: 16px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 28px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .Login-form-control-checkbox{
+      width: 50px;
+      height: 50px;
+  }
+  
+  .Login-form-group-lable{
+    padding-right: 550px;
+  }
